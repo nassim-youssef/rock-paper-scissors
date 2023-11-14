@@ -28,3 +28,33 @@ function getComputerWeapon(){
     return "SCISSORS";
   }
 }
+
+function getRoundWinner(userWeapon, computerWeapon) {
+  if(userWeapon === computerWeapon){
+    return "tie";
+  }
+  else if((userWeapon === "ROCK") && (computerWeapon === "SCISSORS"))
+  {
+    return "user";
+  }
+  else if((userWeapon === "ROCK") && (computerWeapon === "PAPER"))
+  {
+    return "computer";
+  }
+  else if((userWeapon === "PAPER") && (computerWeapon === "ROCK"))
+  {
+    return "user";
+  }
+  else if((userWeapon === "PAPER") && (computerWeapon === "SCISSORS"))
+  {
+    return "computer";
+  }
+  else if((userWeapon === "SCISSORS") && (computerWeapon === "PAPER"))
+  {
+    return "user";
+  }
+  else if((userWeapon === "SCISSORS") && (computerWeapon === "ROCK"))
+  {
+    return "computer";
+  }
+}

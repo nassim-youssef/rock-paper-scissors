@@ -64,7 +64,7 @@ let userScore = 0;
 let computerScore = 0;
 function updateScore(winner){
   if(winner === "tie") {
-
+    //do update nothing since it is a tie game
   }else if(winner === "user")
   {
     ++userScore;

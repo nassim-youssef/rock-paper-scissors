@@ -59,3 +59,17 @@ function getRoundWinner(userWeapon, computerWeapon) {
     return "computer";
   }
 }
+
+let userScore = 0;
+let computerScore = 0;
+function updateScore(winner){
+  if(winner === "tie") {
+
+  }else if(winner === "user")
+  {
+    ++userScore;
+  }
+  else {
+    ++computerScore;
+  }
+}

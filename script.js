@@ -107,6 +107,7 @@ function displayGameData(userScore, computerScore, userWeapon, computerWeapon,ro
   }
 }
 
+//Bellow is the game logic that connect and use all the previous parts "functions"
 let userWeapon = '';
 let computerWeapon = '';
 let roundWinner = '';

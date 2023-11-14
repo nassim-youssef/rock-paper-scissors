@@ -13,3 +13,18 @@ function getUserWeapon(){
   return userWeapon;
 }
 
+//Generate computer's choice: Rock/Paper/Scissors Randomly
+function getComputerWeapon(){
+  let arbitraryNum = (Math.random())*100;
+  if(arbitraryNum >= 0 && arbitraryNum < 100/3)
+  {
+    return "ROCK";
+  }
+  else if(arbitraryNum >= 100/3 && arbitraryNum < 200/3)
+  {
+    return "PAPER";
+  }
+  else {
+    return "SCISSORS";
+  }
+}

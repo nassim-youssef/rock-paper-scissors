@@ -29,6 +29,7 @@ function getComputerWeapon(){
   }
 }
 
+//compare user/computer weapon, and return one of: user, computer, tie
 function getRoundWinner(userWeapon, computerWeapon) {
   if(userWeapon === computerWeapon){
     return "tie";

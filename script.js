@@ -107,3 +107,18 @@ function displayGameData(userScore, computerScore, userWeapon, computerWeapon,ro
   }
 }
 
+let userWeapon = '';
+let computerWeapon = '';
+let roundWinner = '';
+
+
+while(true) {
+  userWeapon = getUserWeapon();
+  computerWeapon = getComputerWeapon();
+  roundWinner = getRoundWinner(userWeapon, computerWeapon);
+  updateScore(roundWinner);
+  displayGameData(userScore, computerScore, userWeapon, computerWeapon, roundWinner);
+  if(userScore === 5 || computerScore === 5){
+    break;
+  }
+}

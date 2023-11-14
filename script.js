@@ -73,3 +73,37 @@ function updateScore(winner){
     ++computerScore;
   }
 }
+
+function displayGameData(userScore, computerScore, userWeapon, computerWeapon,roundWinner){
+  let dataToBeDisplayed = '';
+  if(userScore === 5)
+  {
+    dataToBeDisplayed = `\t### You Are The Winner, CONGRATULATIONS TO YOU MISTER USER ###
+    User Score: 0${userScore}\tComputer Score: 0${computerScore}`;
+    console.log(dataToBeDisplayed);
+  } else if (computerScore === 5) {
+    dataToBeDisplayed = `\t!!!!! YOU LOST !!!!!
+    User Score: 0${userScore}\tComputer Score: 0${computerScore}`;
+    console.log(dataToBeDisplayed);
+  }
+  else if(roundWinner === "user")
+  {
+    dataToBeDisplayed = `\t# You Are The Round Winner #
+    ${userWeapon} BEATS ${computerWeapon}
+    User Score: 0${userScore}\tComputer Score: 0${computerScore}`;
+    console.log(dataToBeDisplayed);
+  }
+  else if(roundWinner === "computer")
+  {
+    dataToBeDisplayed = `\t!!! You LOST The Round !!!
+    ${computerWeapon} BEATS ${userWeapon}
+    User Score: 0${userScore}\tComputer Score: 0${computerScore}`;
+    console.log(dataToBeDisplayed);
+  }
+  else if (roundWinner === "tie") {
+    dataToBeDisplayed = `\tIt Is A Tie_Round
+    User Score: 0${userScore}\tComputer Score: 0${computerScore}`;
+    console.log(dataToBeDisplayed);
+  }
+}
+

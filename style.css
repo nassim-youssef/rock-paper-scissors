@@ -69,3 +69,7 @@ html {
   flex-direction: column;
   align-items: center;
 }
+
+.weapon-field img {
+  width: 225px;
+}

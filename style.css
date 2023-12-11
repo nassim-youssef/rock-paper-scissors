@@ -28,4 +28,7 @@ html {
 
 .header-title {
   color: white;
+  font-family: 'Jolly Lodger';
+  font-weight: 100;
+  font-size: 66px;
 }

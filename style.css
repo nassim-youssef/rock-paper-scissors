@@ -16,3 +16,8 @@ html {
   height: 200px;
   background-color: #483C32;
 }
+
+.logo-image {
+  width: 180px;
+  height: auto;
+}

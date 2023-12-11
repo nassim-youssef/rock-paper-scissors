@@ -107,19 +107,19 @@ function displayGameData(userScore, computerScore, userWeapon, computerWeapon,ro
   }
 }
 
-//Bellow is the game logic that connect and use all the previous parts "functions"
-let userWeapon = '';
-let computerWeapon = '';
-let roundWinner = '';
+// //Bellow is the game logic that connect and use all the previous parts "functions"
+// let userWeapon = '';
+// let computerWeapon = '';
+// let roundWinner = '';
 
 
-while(true) {
-  userWeapon = getUserWeapon();
-  computerWeapon = getComputerWeapon();
-  roundWinner = getRoundWinner(userWeapon, computerWeapon);
-  updateScore(roundWinner);
-  displayGameData(userScore, computerScore, userWeapon, computerWeapon, roundWinner);
-  if(userScore === 5 || computerScore === 5){
-    break;
-  }
-}
+// while(true) {
+//   userWeapon = getUserWeapon();
+//   computerWeapon = getComputerWeapon();
+//   roundWinner = getRoundWinner(userWeapon, computerWeapon);
+//   updateScore(roundWinner);
+//   displayGameData(userScore, computerScore, userWeapon, computerWeapon, roundWinner);
+//   if(userScore === 5 || computerScore === 5){
+//     break;
+//   }
+// }

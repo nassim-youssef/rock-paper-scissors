@@ -32,3 +32,10 @@ html {
   font-weight: 100;
   font-size: 66px;
 }
+
+.game-container {
+  width: 900px;
+  height: 700px;
+  border: solid 3px #eba66e; /*for debugging*/
+  margin: auto;
+}

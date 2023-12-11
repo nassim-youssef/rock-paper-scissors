@@ -11,3 +11,8 @@ html {
   background-color: #FFECD1;
   height: 100vh;
 }
+
+.header-container {
+  height: 200px;
+  background-color: #483C32;
+}

@@ -15,9 +15,13 @@ html {
 .header-container {
   height: 200px;
   background-color: #483C32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-image {
   width: 180px;
   height: auto;
+  margin: 10px 20px;
 }

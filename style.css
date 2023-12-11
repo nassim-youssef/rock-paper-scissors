@@ -42,3 +42,15 @@ html {
   flex-direction: column;
   align-items: center;
 }
+
+.game-status {
+  font-family: 'Keania One';
+  font-weight: 100;
+  text-align: center;
+  border: 10px solid black ;
+  width: 750px;
+  padding: 5px;
+  font-size: 50px;
+  background-color: #eba66e;
+  margin: 35px 0px;
+}

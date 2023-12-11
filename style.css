@@ -54,3 +54,11 @@ html {
   background-color: #eba66e;
   margin: 35px 0px;
 }
+
+.battle-field {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+  border: #483C32 solid 2px;/*for debugging*/
+
+}

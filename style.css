@@ -25,3 +25,7 @@ html {
   height: auto;
   margin: 10px 20px;
 }
+
+.header-title {
+  color: white;
+}

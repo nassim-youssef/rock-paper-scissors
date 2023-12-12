@@ -99,3 +99,13 @@ html {
   font-size: 77px;
   border-radius: 25px;
 }
+
+.game-control {
+  width: 750px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #36454F;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}

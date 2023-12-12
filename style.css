@@ -142,3 +142,8 @@ html {
   color: white;
   font-size: x-large;
 }
+
+.footer img {
+  height: 40px;
+  width: auto;
+}

@@ -109,3 +109,21 @@ html {
   padding: 20px;
   border-radius: 15px;
 }
+
+.game-control button {
+  color: white;
+  background-color: #008080;
+  font-family: 'Keania One';
+  font-size: xx-large;
+  width: 200px;
+  border-radius: 10px;
+  border: 0px;
+}
+.game-control button:hover {
+  cursor: pointer;
+  color: #008080;
+  background-color: white;
+}
+.game-control button:active {
+  background-color: #eba66e;
+}

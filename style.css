@@ -66,7 +66,6 @@ body {
   display: flex;
   justify-content: space-between;
   width: 750px;
-  border: #483C32 solid 2px;/*for debugging*/
 
 }
 

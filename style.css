@@ -134,5 +134,11 @@ html {
   background-color: black;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10px;
+}
+.footer div {
+  font-family: 'Keania One';
+  color: white;
+  font-size: x-large;
 }

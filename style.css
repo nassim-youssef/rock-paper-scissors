@@ -127,3 +127,12 @@ html {
 .game-control button:active {
   background-color: #eba66e;
 }
+
+
+.footer {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

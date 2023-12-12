@@ -78,6 +78,8 @@ body {
 
 .weapon-field img {
   width: 225px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.678) 0px 5px 15px;
 }
 
 .weapon-field div {

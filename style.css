@@ -118,6 +118,17 @@ body {
 
 .reset {
   width: 50px;
+  padding: 2px;
+  border-radius: 10px;
+  border: #008080 2px solid;
+}
+.reset:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.678) 0px 5px 15px;
+}
+.reset:active {
+  box-shadow: rgba(83, 54, 10, 0.801) 0px 5px 15px;
+  background-color: #0080805b;
 }
 .game-control {
   width: 750px;
